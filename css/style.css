@@ -1,0 +1,149 @@
+*{
+    font-family: 'source-sans-pro','sans-serif';
+}
+.header-menu1 li a{
+    font-weight: normal;
+    color: #000;
+
+}
+.header-menu1 li{
+    margin-left: 10px;
+
+}
+.header-menu1 li:hover a{
+    color: #6dc4a1;
+    transition: ease 0.2s;
+}
+.header-menu2 li a{
+    text-decoration: none;
+}
+.header-menu2 li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.header-menu2 li:hover span{
+    color: #6dc4a1;
+    transition: ease 0.2s;
+}
+.header-menu2 li:hover a{
+    fill: #6dc4a1;
+    transition: ease 0.2s;
+    
+}
+.card-link{
+    text-decoration: none;
+}
+.card-link:hover{
+    color: #6dc4a1 !important;
+    transition: ease 0.2s;
+}
+.text-link{
+    color: #000;
+    text-decoration: none;
+}
+.text-link:hover{
+    color: #6dc4a1;
+    transition: ease 0.2s;
+}
+.title-link:hover{
+    color: #6dc4a1;
+    transition: ease 0.2s;
+
+}
+.title-link{
+    color: #000;
+    text-decoration: none;
+}
+.div-border{
+    border-left: 1px solid rgb(78, 77, 77);
+
+}
+footer{
+    background-color: #152837;
+    font-size: small;
+}
+.footer-menu li{
+    list-style: none;
+    color: #fff;
+    margin-top: 15px;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: lightgray;
+    
+}
+.footer-menu li:hover a{
+    color: #6dc4a1;
+    transition: ease 0.3s;
+}
+.svg-icon a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.svg-icon svg{
+    fill: #fff;
+}
+.svg-icon i:hover svg{
+    fill: #6dc4a1;
+    transition: ease 0.3s;
+}
+.svg-icon2 a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.svg-icon2 svg{
+    fill: #fff;
+}
+.svg-icon2 i:hover svg{
+    fill: #6dc4a1;
+    transition: ease 0.3s;
+}
+.svg-icon2 li{
+    display: inline-block;
+    margin-left: 0;
+}
+.dir-menu a{
+    text-decoration: none;
+    color: gray;
+}
+.dir-menu a:hover{
+    color: #000;
+}
+.po-rel{
+    position: relative;
+}
+.fa-search2{
+    position: absolute;
+    right: 19px;
+    top: 25px;
+}
+.fa-search2 svg{
+    fill: gray;
+}
+.catergorie-menu li {
+    list-style:disc;
+    margin-top: 10px;
+    padding-left: 7px;
+
+}
+.catergorie-menu li a{
+    text-decoration: none;
+    color: gray;
+}
+.catergorie-menu li:hover > a{
+    color: #6dc4a1;
+    transition: ease 0.3s;
+}
+.navbar-toggler{
+    position: absolute;
+    right: -270px;
+    top: 14px;
+}
+header{
+    position: relative;
+}
+.navbar-brand img:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
